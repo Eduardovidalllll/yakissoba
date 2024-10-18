@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6em;
+    background-color: #6bd4557e;
+}
+.header{
+    background-color: #9efa9ede;
+    color: #3daf43;
+    padding: 50px, 0;
+}
+.header h1{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-size: 3em;
+    /* margin-bottom: 30px; */
+    padding: 20px;
+}
+.header p{
+    text-align: center;
+    color: #3daf43;
+}
+
+.box h2{
+    text-align: center;
+    background-color: #3daf43;
+    text-shadow: 2px 2px black;
+    color: #1beb26;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.container p{
+    text-align: center;
+    margin-left: 14%;
+    line-height: 1.5;
+}
+
+.box p{
+    width: 70%;
+    flex-wrap: wrap;
+    font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.p{
+    color: #266829;
+    font-size: 60px;
+    /* margin-bottom: 0px; */
+
+}
+.lista1{
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1.8;
+    font-family:  Arial, sans-serif;
+    background-color: #3daf43;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px rgba(66, 83, 59, 0.829) solid;
+}
+
+.p2{
+    color: #38833c;
+    font-size: 60px;
+    margin-top: 15px;
+}
+.lista2{
+    margin-left: 23%;
+    line-height: 2.5;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 60%;
+}
+li{
+    text-align: justify;
+}
+
+.footer{
+    background-color: #266829;
+    text-align: center;
+    font-size: 15px;
+}
+
+.parallax1{
+    background:url(https://moinhoglobo.com.br/wp-content/uploads/2019/01/23-yakissoba.jpg);
+}
+
+.parallax2{
+    background: url(https://blog.atacadao.com.br/wp-content/uploads/2023/11/Receitas-de-Yakisoba-conheca-duas-opcoes-Foto-de-um-yakisoba-com-carne-Atacadao.jpg);
+}
+
+.parallax3{
+    background: url(https://uploads.folhabv.com.br/2024/09/MdnSIGtE-ai-generated-8745696_1280-1024x576.webp);
+}
+
+.parallax{
+    height:100vh ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:780px){
+    .header h1{
+        font-size: 180%;
+        width: 100%;
+    }
+    .header p{
+        font-size: 15px;
+    }
+
+    .box h2{
+        font-size: 30px;
+    }
+
+    .box p{
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 2px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lista1{
+        width: 100%;
+        font-size: 20px;
+        margin-left: 2px;
+    }
+    .lista2{
+        width: 100%;
+        font-size: 18px;
+        margin-left: 1px;
+        padding: 20px;
+        line-height: 1.5;
+    }
+    
+    .parallax{
+        height: 90vh;
+        background-size: cover;
+        width: 100%;
+    }
+     
+
+
+    
+}
